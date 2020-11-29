@@ -127,7 +127,7 @@ def make_chart_plt(csvName, chartName):
     plt.grid(b=True, which='major', axis='both', alpha=0.2, color='skyblue', linestyle='--', linewidth=2)
     # plt.xticks(range(0, 80, 10), rotation=None)  # 设置x轴刻度显示旋转45度显示
     # x轴标注
-    plt.xticks(range(0, len(date), 10))  # 以10天为间隔显示
+    # plt.xticks(range(0, len(date), 10))  # 以10天为间隔显示
     months = {'1.01': 'Jan', '2.01': 'Feb', '3.01': 'Mar', '4.01': 'Apr', '5.01': 'May', '6.01': 'June', '7.01': 'July',
               '8.01': 'Aug', '9.01': 'Sept', '10.01': 'Oct', '11.01': 'Nov', '12.01': 'Dec'}
     x, val = [], []

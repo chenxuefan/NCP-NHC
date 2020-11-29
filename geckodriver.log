@@ -500,3 +500,14 @@ Exiting due to channel error.
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1606628214381	Marionette	INFO	Listening on port 51534
 1606628214454	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606630486620	geckodriver	INFO	Listening on 127.0.0.1:52248
+1606630487647	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/pd/_b5tswv53n3bmz4w_dwn680c0000gn/T/rust_mozprofile5GEJnV"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606630490619	Marionette	INFO	Listening on port 52264
+1606630490658	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
